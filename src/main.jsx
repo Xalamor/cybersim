@@ -5,10 +5,8 @@ import { ThemeProvider, CssBaseline } from "@mui/material";
 import App from "./App";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
     <HashRouter>
         <CssBaseline />
         <App />
     </HashRouter>
-  </React.StrictMode>
 );
